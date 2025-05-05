@@ -11,7 +11,7 @@ void __attribute__ ( ( section ( ".mprjram" ) ) ) initfir() {
 int* __attribute__ ( ( section ( ".mprjram" ) ) ) fir(){
 	initfir();
    for (int n = 0; n < N; n++) {
-		// ²¾°Ê inputbuffer
+		// Â²Â¾Â°ÃŠ inputbuffer
 		// FIR convolution
 		int acc = 0;
 		for (int k = 0; k < N; k++) {
